@@ -1,0 +1,15 @@
+ Console.WriteLine("Введите первую дату: ");
+            DateTime time = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Введите вторую дату: ");
+            DateTime time1 = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine($"Вы ввели две даты: {time},{time1}");
+            Console.WriteLine($"{time:d} {time1:d}");
+            //if (time <= time1)
+            //{
+            //    Console.WriteLine($"Разница между дня: {time - (time1)}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Не известная разница");
+            //}
+            Console.ReadKey()
