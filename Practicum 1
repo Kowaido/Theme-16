@@ -1,0 +1,79 @@
+ static void Main(string[] args)
+        {
+            //DateTime time = DateTime.Now;
+            //Задание1-Вывести сообщение с информацией о текущей системной дате, применив
+            //несколько форматов
+            //Console.WriteLine("Текущая дата: ");
+            //Console.WriteLine($"дата: {time.ToString("d")}");
+            //Console.WriteLine($"дата: {time.ToString("d MMM yyyy")}");
+            //Console.WriteLine($"дата: {time.ToString("D")}");
+            //Console.WriteLine($"дата: {time.ToString("ddd, d MMM yyyy")}");
+            //Console.WriteLine($"дата: {time:dddd}, {time:D}");
+            //Console.WriteLine("Текущее время: ");
+            //Console.WriteLine($"время: {time:T}");
+            //Console.WriteLine($"время: {time:t}");
+            //Console.WriteLine("Текущая дата и время");
+            //Console.WriteLine($"дата и время: {time:d} {time:T}");
+            //Console.WriteLine($"дата и время: {time:D} {time:t}");
+            //Console.WriteLine($"дата и время: {time:D} {time:T}");
+            //Console.WriteLine($"дата и время: {time:R}");
+            //Console.WriteLine($"дата и время: {time:s}");
+
+            //Задание 2-Запросить с клавиатуры возраст человека и вывести на экран следующее сообщение:
+            //Ты родился в ... году
+            //Console.Write("Введите ваш возраст: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Введите день своего рождения(в формате ДД.ММ): ");
+            //DateTime birthday = DateTime.ParseExact(Console.ReadLine(), "dd.MM", null);
+            //int birhtYear = DateTime.Now.Year - age;
+            //    if (DateTime.Now.Date >= birthday)
+            //    {
+            //        Console.WriteLine($"Ты родился в {birhtYear} году");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"Ты родился в {birhtYear-1} году");
+            //    }
+
+            //Задание 3-Определите возраст человека
+            //1-Способ: В нём мы определим возраст по дате которую указали внутри переменной.
+            //Console.WriteLine("Вы здесь можете увидеть сколько человеку лет по дате: 25.08.2004");
+            //DateTime birhtdate = new DateTime(2004, 08, 25);
+            //DateTime конкретнаяDate = DateTime.Now;
+            //int возраст = конкретнаяDate.Year - birhtdate.Year;
+            //if (конкретнаяDate.Month < birhtdate.Month  (конкретнаяDate.Month == birhtdate.Month && конкретнаяDate.Day < birhtdate.Day))
+            //{ 
+            //    возраст--;
+            //    Console.WriteLine();
+            //    Console.WriteLine($"Возраст человека: {возраст} лет");
+            //}
+
+            ////2-Способ: Здесь мы введём свою дату, и сможем определить возраст который нам нужен.
+            //Console.WriteLine();
+            //Console.WriteLine("Теперь вы можете попробовать ввести свою дату и определить возраст: ");
+            //Console.WriteLine();
+            //Console.Write("Введите дату рождения(гггг-мм-дд): ");
+            //string input = Console.ReadLine();
+            //if (DateTime.TryParse(input, out DateTime birthdate))
+            //{
+            //    DateTime конкретнаяДата = DateTime.Now;
+            //    int age = Calcutage(birthdate, конкретнаяДата);
+            //    Console.WriteLine();
+            //    Console.WriteLine($"Возраст человека: {age} лет");
+            //}
+            //else
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("Вы ввели некорректную дату. Пожалуйста, используйте формат гггг-мм-дд");
+            //}
+            //Console.ReadKey();
+            //}
+
+            //static int Calcutage(DateTime birthdate, DateTime конкретнаяДата)
+            //{
+            //    DateTime конкретная = DateTime.Now;
+            //    int age = конкретная.Year - birthdate.Year;
+            //    if (конкретнаяДата.Month < birthdate.Month  (конкретнаяДата.Month == birthdate.Month && конкретнаяДата.Month < birthdate.Month))
+            //    {
+            //        age--;
+            //    }
